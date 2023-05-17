@@ -1,0 +1,12 @@
+C:\Users\Manan.Patadiya\source\repos\PensionManagement\PensionManagement\Shared\bin\Debug\net6.0\PensionManagement.Shared.deps.json
+C:\Users\Manan.Patadiya\source\repos\PensionManagement\PensionManagement\Shared\bin\Debug\net6.0\PensionManagement.Shared.dll
+C:\Users\Manan.Patadiya\source\repos\PensionManagement\PensionManagement\Shared\bin\Debug\net6.0\PensionManagement.Shared.pdb
+C:\Users\Manan.Patadiya\source\repos\PensionManagement\PensionManagement\Shared\obj\Debug\net6.0\PensionManagement.Shared.csproj.AssemblyReference.cache
+C:\Users\Manan.Patadiya\source\repos\PensionManagement\PensionManagement\Shared\obj\Debug\net6.0\PensionManagement.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Manan.Patadiya\source\repos\PensionManagement\PensionManagement\Shared\obj\Debug\net6.0\PensionManagement.Shared.AssemblyInfoInputs.cache
+C:\Users\Manan.Patadiya\source\repos\PensionManagement\PensionManagement\Shared\obj\Debug\net6.0\PensionManagement.Shared.AssemblyInfo.cs
+C:\Users\Manan.Patadiya\source\repos\PensionManagement\PensionManagement\Shared\obj\Debug\net6.0\PensionManagement.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Manan.Patadiya\source\repos\PensionManagement\PensionManagement\Shared\obj\Debug\net6.0\PensionManagement.Shared.dll
+C:\Users\Manan.Patadiya\source\repos\PensionManagement\PensionManagement\Shared\obj\Debug\net6.0\refint\PensionManagement.Shared.dll
+C:\Users\Manan.Patadiya\source\repos\PensionManagement\PensionManagement\Shared\obj\Debug\net6.0\PensionManagement.Shared.pdb
+C:\Users\Manan.Patadiya\source\repos\PensionManagement\PensionManagement\Shared\obj\Debug\net6.0\ref\PensionManagement.Shared.dll

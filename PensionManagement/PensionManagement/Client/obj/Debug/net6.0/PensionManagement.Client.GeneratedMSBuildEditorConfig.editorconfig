@@ -1,0 +1,79 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = PensionManagement.Client
+build_property.RootNamespace = PensionManagement.Client
+build_property.ProjectDir = C:\Users\Manan.Patadiya\source\repos\PensionManagement\PensionManagement\Client\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Manan.Patadiya\source\repos\PensionManagement\PensionManagement\Client
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Manan.Patadiya/source/repos/PensionManagement/PensionManagement/Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manan.Patadiya/source/repos/PensionManagement/PensionManagement/Client/Pages/AddUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkVXNlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manan.Patadiya/source/repos/PensionManagement/PensionManagement/Client/Pages/Authentication.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manan.Patadiya/source/repos/PensionManagement/PensionManagement/Client/Pages/ContactUs.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdFVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manan.Patadiya/source/repos/PensionManagement/PensionManagement/Client/Pages/DeleteUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlVXNlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manan.Patadiya/source/repos/PensionManagement/PensionManagement/Client/Pages/GenerateReport.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VuZXJhdGVSZXBvcnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manan.Patadiya/source/repos/PensionManagement/PensionManagement/Client/Pages/GlobalRanking.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2xvYmFsUmFua2luZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manan.Patadiya/source/repos/PensionManagement/PensionManagement/Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manan.Patadiya/source/repos/PensionManagement/PensionManagement/Client/Pages/UserDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlckRldGFpbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manan.Patadiya/source/repos/PensionManagement/PensionManagement/Client/Shared/LoginDisplay.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manan.Patadiya/source/repos/PensionManagement/PensionManagement/Client/Shared/RedirectToLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFJlZGlyZWN0VG9Mb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manan.Patadiya/source/repos/PensionManagement/PensionManagement/Client/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manan.Patadiya/source/repos/PensionManagement/PensionManagement/Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manan.Patadiya/source/repos/PensionManagement/PensionManagement/Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-zctgkrd0pb
+
+[C:/Users/Manan.Patadiya/source/repos/PensionManagement/PensionManagement/Client/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-mgsu1zz6va

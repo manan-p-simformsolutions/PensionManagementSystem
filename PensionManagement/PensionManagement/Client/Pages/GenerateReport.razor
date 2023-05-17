@@ -1,0 +1,68 @@
+﻿@page "/downloadreport"
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@using PensionManagement.Shared
+@using PensionManagement.Shared.Models
+@attribute [Authorize]
+@inject HttpClient Http
+@inject IJSRuntime JSRuntime
+
+<h1>Generate and Download Report</h1>
+
+<p>
+    Welcome to the Pension Management system. Generate a report and download it by clicking the button below.
+</p>
+
+<button class="btn btn-primary mb-2" @onclick="DownloadReport">Download Report</button>
+
+<style>
+    h1 {
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        color: #666;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border: none;
+        color: #fff;
+    }
+</style>
+
+@code {
+    private async Task DownloadReport()
+    {
+        try
+        {
+            var response = await Http.GetAsync("api/user/DownloadReport");
+            response.EnsureSuccessStatusCode(); // Ensure successful response
+
+            var contentStream = await response.Content.ReadAsStreamAsync();
+            var stream = new MemoryStream();
+            await contentStream.CopyToAsync(stream);
+            stream.Position = 0;
+
+            await JSRuntime.InvokeVoidAsync("BlazorDownloadFile", "UserReport.csv", "text/csv", stream);
+        }
+        catch (AccessTokenNotAvailableException exception)
+        {
+            exception.Redirect();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+            // Handle or display the error as needed
+        }
+    }
+}

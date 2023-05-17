@@ -1,0 +1,52 @@
+﻿@page "/"
+@using Microsoft.AspNetCore.Components.Authorization  
+@inject AuthenticationStateProvider AuthenticationStateProvider 
+
+<PageTitle>Index</PageTitle>
+
+<marquee style="background-color:#efffde;"><h1>National Pension Yojana</h1></marquee>
+
+<p>Welcome to your Pension site.</p>
+
+<div>
+    <figure class="figure">
+        <img src="/pensionhome.jpg" class="figure-img img-fluid rounded" style="width:1500px;height:700px; alt="..." >
+    </figure>
+</div>
+<style>
+      .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+marquee{
+      font-size: 30px;
+      font-weight: 800;
+      color: #8ebf42;
+      font-family: sans-serif;
+      }
+</style>
+
+<SurveyPrompt Title="Please visit the site for latest notifications and updates" />
+
+<p>  
+    @userAuthenticated  
+</p>  
+  
+@code{  
+    string userAuthenticated;  
+    protected override async Task OnInitializedAsync()  
+    {  
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();  
+        var user = authState.User;  
+        if (user.Identity.IsAuthenticated)  
+        {  
+            userAuthenticated = $"{ user.Identity.Name} is authenticated.";  
+        }  
+        else  
+        {  
+            userAuthenticated = "The user is NOT authenticated.";  
+        }  
+    }  
+}  
